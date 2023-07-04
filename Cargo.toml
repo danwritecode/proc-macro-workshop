@@ -13,6 +13,8 @@ path = "main.rs"
 [dependencies]
 bitfield = { path = "bitfield" }
 derive_builder = { path = "builder" }
+any_chunk = { path = "any_chunk" }
+promptize = { path = "promptize" }
 derive_debug = { path = "debug" }
 seq = { path = "seq" }
 sorted = { path = "sorted" }

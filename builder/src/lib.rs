@@ -99,7 +99,6 @@ pub fn derive(input: TokenStream) -> TokenStream {
                     self.#name = Some(#name);
                     self
                 }
-
             };
         }
 
@@ -108,7 +107,6 @@ pub fn derive(input: TokenStream) -> TokenStream {
                 self.#name = Some(#name);
                 self
             }
-
         };
     });
 
