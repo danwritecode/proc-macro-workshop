@@ -1,6 +1,6 @@
-use any_chunk::Chunkable;
+use promptize::Promptize;
 
-#[derive(Chunkable)]
+#[derive(Promptize)]
 pub struct FileContent {
     pub filename: String,
     #[chunkable]

@@ -18,3 +18,9 @@ promptize = { path = "promptize" }
 derive_debug = { path = "debug" }
 seq = { path = "seq" }
 sorted = { path = "sorted" }
+
+
+tiktoken-rs = "0.4.2"
+serde_json = "1.0.94"
+serde = { version = "1.0", features = ["derive"] }
+
